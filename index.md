@@ -30,8 +30,3 @@ nav_order: 1
     <li><span class="focus-index">05</span><span>Entrepreneurship</span></li>
   </ul>
 </section>
-
-<section class="home-note" aria-label="Portfolio content status">
-  <span class="note-mark" aria-hidden="true"></span>
-  <p>Personal background and experience details will be added from information provided by me.</p>
-</section>
