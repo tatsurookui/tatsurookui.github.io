@@ -14,3 +14,5 @@ Thumbs.db
 # Replit-managed files
 .cache/
 .local/
+.conversation/
+node_modules/

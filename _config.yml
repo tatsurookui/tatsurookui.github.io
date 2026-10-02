@@ -6,6 +6,7 @@ url: "https://tatsurookui.github.io"
 baseurl: ""
 lang: en
 markdown: kramdown
+theme: null
 permalink: pretty
 timezone: UTC
 
@@ -25,14 +26,4 @@ exclude:
   - .bundle
   - .jekyll-cache
   - node_modules
-  - artifacts
-  - lib
-  - scripts
-  - package.json
-  - pnpm-lock.yaml
-  - pnpm-workspace.yaml
-  - tsconfig.json
-  - tsconfig.base.json
   - .replit
-  - .replitignore
-  - .npmrc

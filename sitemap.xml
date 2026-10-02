@@ -7,10 +7,10 @@ sitemap_exclude: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% assign sitemap_pages = site.pages | sort: "url" %}
   {% for item in sitemap_pages %}
-    {% unless item.sitemap_exclude or item.url == "/sitemap.xml" %}
+    {% if item.nav_order %}
       <url>
         <loc>{{ item.url | absolute_url }}</loc>
       </url>
-    {% endunless %}
+    {% endif %}
   {% endfor %}
 </urlset>

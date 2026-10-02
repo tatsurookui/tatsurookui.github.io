@@ -111,7 +111,7 @@ a:focus-visible {
   border-radius: 0.6rem;
   color: var(--surface);
   background: var(--accent);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-sans);
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -170,7 +170,7 @@ a:focus-visible {
 .home-page h1 {
   max-width: 13ch;
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-sans);
   font-size: clamp(3rem, 7.8vw, 5.6rem);
   font-weight: 500;
   letter-spacing: -0.065em;
@@ -226,7 +226,7 @@ a:focus-visible {
   display: grid;
   margin-top: clamp(4.75rem, 10vw, 7.5rem);
   padding-top: 1.4rem;
-  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  grid-template-columns: 1fr;
   gap: clamp(1.5rem, 5vw, 4rem);
   border-top: 1px solid var(--line);
 }
@@ -238,7 +238,7 @@ a:focus-visible {
 .section-heading h2,
 .page-heading h1 {
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-sans);
   font-weight: 500;
   letter-spacing: -0.045em;
 }

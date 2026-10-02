@@ -1,4 +1,0 @@
-modules = ["ruby-3.2"]
-
-[agent]
-expertMode = true
