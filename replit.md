@@ -1,45 +1,16 @@
-# [Project name]
+# Tatsuro Okui — Personal Portfolio
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+This repository is a root-level, static Jekyll site intended for GitHub Pages from the `main` branch and repository root.
 
-## Run & Operate
+## Project constraints
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- Keep all Jekyll pages, layouts, includes, styles, and site assets at the repository root.
+- Do not add a Node app, framework, backend, database, CMS, contact-form service, tracker, or separate preview app.
+- Use only information supplied by the user. Keep missing personal details clearly labeled as placeholders.
+- Do not publish an email address or `mailto` link.
 
-## Stack
+## Preview and publishing
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
-
-## Where things live
-
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
-
-## Architecture decisions
-
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
-
-## Product
-
-_Describe the high-level user-facing capabilities of this app once they exist._
-
-## User preferences
-
-_Populate as you build — explicit user instructions worth remembering across sessions._
-
-## Gotchas
-
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- Local preview: `bundle install` then `bundle exec jekyll serve`.
+- GitHub Pages source: `main` branch, `/(root)`.
+- See `README.md` for editing, preview, publishing, and Lighthouse instructions.

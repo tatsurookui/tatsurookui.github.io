@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% assign page_title = page.title | default: site.title %}
+{% if page.title == "Home" %}
+  {% assign document_title = site.title %}
+{% else %}
+  {% assign document_title = page_title | append: " | " | append: site.title %}
+{% endif %}
+<title>{{ document_title | escape }}</title>
+<meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
+<meta name="color-scheme" content="light">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ document_title | escape }}">
+<meta property="og:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ '/assets/favicon.svg' | absolute_url }}">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">

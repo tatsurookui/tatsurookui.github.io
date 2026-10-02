@@ -1,0 +1,38 @@
+title: Tatsuro Okui
+description: >-
+  A professional portfolio focused on MBA studies, professional experience,
+  international business, digital strategy, and entrepreneurship.
+url: "https://tatsurookui.github.io"
+baseurl: ""
+lang: en
+markdown: kramdown
+permalink: pretty
+timezone: UTC
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/favicon.svg
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - PLAN.md
+  - replit.md
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - node_modules
+  - artifacts
+  - lib
+  - scripts
+  - package.json
+  - pnpm-lock.yaml
+  - pnpm-workspace.yaml
+  - tsconfig.json
+  - tsconfig.base.json
+  - .replit
+  - .replitignore
+  - .npmrc
