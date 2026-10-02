@@ -1,1 +1,2 @@
 - [Root-level Jekyll Preview](jekyll-preview.md) — stop orphaned scaffold servers and verify public port routing after workflow configuration.
+- [Manual Git handling](git-handling.md) — the user handles Git manually; do not commit or push changes.
