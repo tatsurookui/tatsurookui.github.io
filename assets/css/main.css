@@ -419,6 +419,12 @@ a:focus-visible {
     padding-top: 4.25rem;
   }
 
+  .home-page h1 {
+    max-width: none;
+    font-size: clamp(2.2rem, 9.6vw, 3.2rem);
+    overflow-wrap: anywhere;
+  }
+
   .focus-section {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -438,10 +444,6 @@ a:focus-visible {
   .header-inner,
   .footer-inner {
     width: calc(100% - 2rem);
-  }
-
-  .home-page h1 {
-    font-size: clamp(2.7rem, 13vw, 3.2rem);
   }
 
   .home-actions {

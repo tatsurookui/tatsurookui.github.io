@@ -21,9 +21,17 @@ exclude:
   - Gemfile.lock
   - README.md
   - PLAN.md
+  - Change1.md
   - replit.md
   - vendor
   - .bundle
   - .jekyll-cache
+  - .local
+  - .cache
+  - .git
+  - .agents
+  - .config
+  - .conversation
+  - .replit.new
   - node_modules
   - .replit

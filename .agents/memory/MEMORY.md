@@ -1,0 +1,1 @@
+- [Root-level Jekyll Preview](jekyll-preview.md) — stop orphaned scaffold servers and verify public port routing after workflow configuration.

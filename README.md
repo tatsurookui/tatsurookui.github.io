@@ -25,6 +25,8 @@ This is a GitHub user site, so `_config.yml` intentionally sets `baseurl` to an 
 
 ## Preview locally
 
+In Replit, run the **Jekyll Preview** workflow. It uses Jekyll's built-in development preview on port 5000—not Vite, a framework application, or a separate server implementation. GitHub Pages still publishes the static site from the repository root.
+
 Install Ruby and Bundler, then run from the repository root:
 
 ```sh
