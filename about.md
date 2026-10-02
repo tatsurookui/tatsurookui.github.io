@@ -15,7 +15,7 @@ Most recently, my work has focused on enhancing digital strategies in the asset 
 
 ## MBA background
 
-**[Placeholder: add the MBA program, institution, dates, and any details you want to share.]**
+MBA Candidate at UC Berkeley Haas School of Business, Class of 2027.
 
 ## Areas of focus
 

@@ -15,7 +15,3 @@ I have 13 years of experience in the life insurance industry. My most recent wor
 - **New business development:** Developing new businesses in collaboration with startups.
 - **International experience:** Participating in an overseas trainee program in Singapore.
 - **Retail sales:** Experience in retail sales within the life insurance industry.
-
-## Role history
-
-> **[Placeholder: add verified job titles, employers, employment dates, and role-specific responsibilities or achievements.]**
