@@ -7,15 +7,15 @@ nav_order: 2
 eyebrow: PROFILE
 ---
 
-This portfolio is focused on MBA studies, professional experience, international business, digital strategy, and entrepreneurship.
+## Professional profile
+
+I have 13 years of experience in the life insurance industry, spanning retail sales, an overseas trainee program in Singapore, and new business development in collaboration with startups.
+
+Most recently, my work has focused on enhancing digital strategies in the asset formation sector, with the goal of creating new experiential value for customers.
 
 ## MBA background
 
 **[Placeholder: add the MBA program, institution, dates, and any details you want to share.]**
-
-## Professional profile
-
-**[Placeholder: add a short professional introduction or LinkedIn About text.]**
 
 ## Areas of focus
 
